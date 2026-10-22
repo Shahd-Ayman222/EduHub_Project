@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EduHub - Register</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+
+</head>
+
+<body>
+
+    <div class="auth-page">
+
+        <!-- LEFT -->
+
+        <div class="auth-left">
+
+            <a href="index.html" class="logo">
+                Edu<span>Hub</span>
+            </a>
+
+            <div>
+
+                <h1>
+                    Start Learning Today.
+                </h1>
+
+                <p>
+                    Create your EduHub account and get access
+                    to courses designed to help you learn,
+                    grow and succeed.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT -->
+
+        <div class="auth-container">
+
+            <div class="auth-box">
+
+                <h2>Create Account</h2>
+
+                <p class="auth-subtitle">
+                    Join EduHub and start your journey.
+                </p>
+
+
+                <form id="registerForm">
+
+                    <label>Full Name</label>
+
+                    <input
+                        type="text"
+                        id="registerName"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+
+                    <label>Email</label>
+
+                    <input
+                        type="email"
+                        id="registerEmail"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+
+                    <label>Password</label>
+
+                    <input
+                        type="password"
+                        id="registerPassword"
+                        placeholder="Create a password"
+                        required
+                    >
+
+
+                    <label>Confirm Password</label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+
+                    <p
+                        id="registerError"
+                        class="error">
+                    </p>
+
+
+                    <button
+                        type="submit"
+                        class="auth-btn">
+
+                        Create Account
+
+                    </button>
+
+                </form>
+
+
+                <p class="switch-auth">
+
+                    Already have an account?
+
+                    <a href="login.html">
+                        Login
+                    </a>
+
+                </p>
+
+
+                <a href="index.html" class="back-home">
+                    ← Back to Home
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
